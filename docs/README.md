@@ -1,8 +1,10 @@
 # Castle Windsor Documentation
 
+
 <img align="right" src="images/windsor-logo.png">
 
 Castle Windsor is best of breed, mature [Inversion of Control container](ioc.md) available for .NET.
+Castle Windsor 是.net平台上最成熟，最好用的 [IOC容器](ioc.md).
 
 * See [the release notes](https://github.com/castleproject/Windsor/releases/tag/v3.3)
 * [Download it](https://github.com/castleproject/Windsor/releases/tag/v3.3)
@@ -10,8 +12,11 @@ Castle Windsor is best of breed, mature [Inversion of Control container](ioc.md)
 * Or [get pre-release packages as they're built](https://github.com/castleproject/Home/blob/master/prerelease-packages.md)
 
 ## Show me the code already
+## 展示 Castle Windsor 功能的代码
 
 Windsor is very simple to use. Code below is not just *hello world* - that's how many big real life applications use Windsor. See the full documentation for more details on the API, features, patterns, and practices.
+
+Windsor 使用起来非常简单。 下面的代码不仅仅是*hello world* - 这就是很多大型应用程序使用Windsor的代码。 有关API, features, patterns, and practices 的更多详细信息，请参阅完整文档。
 
 ```csharp
 // application starts...
