@@ -21,22 +21,29 @@ Windsor 使用起来非常简单。 下面的代码不仅仅是*hello world* - �
 
 ```csharp
 // application starts...
+// 启动应用程序
 var container = new WindsorContainer();
 
 // adds and configures all components using WindsorInstallers from executing assembly
+// 使用 WindsorInstaller 前程序集添加和配置所有的 components
 container.Install(FromAssembly.This());
 
 // instantiate and configure root component and all its dependencies and their dependencies and...
+// 实例化和配置 root component 以及它的所有依赖
 var king = container.Resolve<IKing>();
 king.RuleTheCastle();
 
 // clean up, application exits
+// 清理，退出应用
 container.Dispose();
 ```
 
 So what about those [installers](installers.md)? Here's one.
 
+什么是 [installers](installers.md)? 这里有一个例子
+
 ```csharp
+// 译注: WindsorInstaller 是一个类: 集中了当前程序集中所有注册 componet 到容器的代码.
 public class RepositoriesInstaller : IWindsorInstaller
 {
 	public void Install(IWindsorContainer container, IConfigurationStore store)
@@ -50,6 +57,8 @@ public class RepositoriesInstaller : IWindsorInstaller
 ```
 
 For more in-depth sample try the section below, or dive right into API documentation on the right.
+
+有关更深入的示例，请尝试以下部分，或直接进入右侧的API文档。
 
 ## Samples and tutorials
 
