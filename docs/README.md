@@ -4,6 +4,7 @@
 <img align="right" src="images/windsor-logo.png">
 
 Castle Windsor is best of breed, mature [Inversion of Control container](ioc.md) available for .NET.
+
 Castle Windsor 是.net平台上最成熟，最好用的 [IOC容器](ioc.md).
 
 * See [the release notes](https://github.com/castleproject/Windsor/releases/tag/v3.3)
