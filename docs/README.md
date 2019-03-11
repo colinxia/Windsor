@@ -77,9 +77,11 @@ Learn Windsor by example by completing step-by-step tutorials. See Windsor in ac
 ### Concepts
 
 * [Inversion of Control and Inversion of Control Container](ioc.md)
+* [ioc 和 ioc 容器](ioc.md)
 * [Services, Components and Dependencies](services-and-components.md)
 * [How components are created](how-components-are-created.md)
-* [How dependencies are resolved](how-dependencies-are-resolved.md)
+* [component 创建过程](how-components-are-created.md)
+* [dependency 解析过程(how-dependencies-are-resolved.md)
 
 ### Using the Container
 
