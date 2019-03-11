@@ -43,7 +43,7 @@ So what about those [installers](installers.md)? Here's one.
 什么是 [installers](installers.md)? 这里有一个例子
 
 ```csharp
-// 译注: WindsorInstaller 是一个类: 集中了当前程序集中所有注册 componet 到容器的代码.
+// 译注: WindsorInstaller 是一个类: 一般用于集中管理当前程序集中所有注册 componet 到容器的代码.
 public class RepositoriesInstaller : IWindsorInstaller
 {
 	public void Install(IWindsorContainer container, IConfigurationStore store)
@@ -63,6 +63,8 @@ For more in-depth sample try the section below, or dive right into API documenta
 ## Samples and tutorials
 
 Learn Windsor by example by completing step-by-step tutorials. See Windsor in action by exploring sample applications showcasing its capabilities:
+
+通过完成分步教程，例子学习 windsor. 
 
 * [Basic tutorial](basic-tutorial.md)
 * [Simple ASP.NET MVC 3 application (To be Seen)](mvc-tutorial-intro.md) - built step by step from the ground up. This tutorial will help you get up to speed with Windsor quickly while keeping an eye on both the usage of the container API as well as patterns that will help you get the most out of using the container.
