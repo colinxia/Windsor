@@ -81,7 +81,8 @@ Learn Windsor by example by completing step-by-step tutorials. See Windsor in ac
 * [Services, Components and Dependencies](services-and-components.md)
 * [How components are created](how-components-are-created.md)
 * [component 创建过程](how-components-are-created.md)
-* [dependency 解析过程(how-dependencies-are-resolved.md)
+* [how dependencies are resolved](how-dependencies-are-resolved.md)
+* [dependency 解析过程](how-dependencies-are-resolved.md)
 
 ### Using the Container
 
