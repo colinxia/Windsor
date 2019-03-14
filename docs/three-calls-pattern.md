@@ -2,6 +2,8 @@
 
 Inversion of Control (called IoC) frameworks are different from all other kinds of frameworks in that you don't see many calls to the framework in your code. In fact - in most applications (regardless of their size and complexity) you will only call the container directly in three places. That's the most common pattern of usage and Windsor supports it fully.
 
+IoC 框架不同于其它所有类型的framework, 你看不到许多调用framework的代码。 实际上在大多数应用程序中你只会在3个地方看到调用框架的代码。这是最常用的使用模式
+
 ## The Three Container Calls Pattern
 
 The pattern is called Three Calls. Sometimes it's referred to as RRR - Register, Resolve, Release - name used in [Mark Seemann's book about containers](http://www.manning.com/seemann/). As the name implies the container is only called in three places in the application, or more precisely; in your entry project.
